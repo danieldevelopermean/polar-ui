@@ -14,7 +14,7 @@ import { User } from './types';
 })
 export class AppComponent implements OnInit {
 
-  title = 'Polar Bookshop';
+  title = 'Books';
 
   isAuthenticated = false;
   user: User | undefined;
